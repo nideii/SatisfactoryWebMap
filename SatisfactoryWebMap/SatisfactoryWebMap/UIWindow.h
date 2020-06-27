@@ -246,7 +246,7 @@ struct UIWindow
 
         GetSystemDefaultLocaleName(localeName, sizeof(localeName));
 
-        mapImage = Image::open("map_crop_s.png");
+        mapImage = Image::open("map.png.png");
         if (mapImage) {
             mapTextureView = CreateTexture(mapImage, mapImage.width, mapImage.height);
         }
